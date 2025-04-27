@@ -60,7 +60,7 @@ body {
 
 .hero {
     height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/500');
+    background-image: url(media/bg.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -74,12 +74,14 @@ body {
     font-size: 3rem;
     margin-bottom: 20px;
     letter-spacing: 2px;
+    color: black;
 }
 
 .hero-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
     max-width: 600px;
+    color: black;
 }
 
 .btn {
